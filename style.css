@@ -17,7 +17,7 @@
     width: 5%;
     height: 5%;
     border-radius: 50%;
-    background-color:rgb(255, 54, 54);
+    background-color: rgb(255, 54, 54);
     position: relative;
     top: 0.5%;
     z-index: 99;
@@ -36,9 +36,9 @@
 }
 
 .hour {
-    /* background: rgb(132, 132, 132); */
-    border: 2px solid rgb(132, 132, 132);
-    width: 2%;
+    background: rgb(132, 132, 132);
+
+    width: 1%;
     bottom: 50%;
     height: 25%;
     left: 48%;
@@ -49,9 +49,10 @@
 }
 
 .minutes {
-    background: rgb(132, 132, 132);
+    /* background: rgb(132, 132, 132); */
+    border: 2px solid rgb(132, 132, 132);
 
-    width: 1.5%;
+    width: 2%;
     bottom: 50%;
     height: 30%;
     position: absolute;
